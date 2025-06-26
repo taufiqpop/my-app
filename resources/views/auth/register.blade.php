@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>RAPMA FM | {{ $title }}</title>
+    <title>Personal | {{ $title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="RAPMA FM" name="description" />
+    <meta content="Personal" name="description" />
     <meta content="Taufiq Pop" name="author" />
 
     <link rel="shortcut icon" href="assets/images/favicon.ico">

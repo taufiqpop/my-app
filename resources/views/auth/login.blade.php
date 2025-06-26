@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>RAPMA FM | Login</title>
+    <title>Taufiq Pop | Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="RAPMA FM" name="description" />
+    <meta content="Personal" name="description" />
     <meta content="Taufiq Pop" name="author" />
 
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -48,7 +48,7 @@
                                 <div class="my-auto">
                                     <div>
                                         <h5 class="text-primary">Welcome Back !</h5>
-                                        <p class="text-muted">Sign in to continue to RAPMA FM</p>
+                                        <p class="text-muted">Sign in to continue to Personal</p>
                                     </div>
 
                                     <div class="mt-4">

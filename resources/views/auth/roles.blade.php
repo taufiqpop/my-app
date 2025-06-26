@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Login | Check Access</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Rapma FM" name="description">
+    <meta content="Personal" name="description">
     <meta content="Taufiq Pop" name="author">
 
     <link rel="shortcut icon" href="{{ config('app.theme') }}assets/images/favicon.ico">
