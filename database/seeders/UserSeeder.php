@@ -19,9 +19,11 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->truncate();
         DB::table('users')->insert([
-            'name' => 'Main Administrator',
-            'username' => 'admin',
-            'password' => Hash::make('admin'),
+            'name' => 'Taufiq Pop',
+            'email' => 'taufiqpop999@gmail.com',
+            'username' => 'taufiqpop',
+            'password' => Hash::make('hutaowangy'),
+            'real_password' => 'hutaowangy',
             'created_at' => Carbon::now()
         ]);
 

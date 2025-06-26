@@ -18,6 +18,7 @@ class MenuSeeder extends Seeder
         DB::table('menus')->truncate();
 
         DB::table('menus')->insert([
+            'grup_menu' => 'Administrator',
             'name' => 'Beranda',
             'slug_name' => 'beranda',
             'menu_order' => 1,
@@ -28,6 +29,7 @@ class MenuSeeder extends Seeder
         ]);
 
         DB::table('menus')->insert([
+            'grup_menu' => 'Administrator',
             'name' => 'Pengguna',
             'slug_name' => 'pengguna',
             'menu_order' => 2,
@@ -38,6 +40,7 @@ class MenuSeeder extends Seeder
         ]);
 
         DB::table('menus')->insert([
+            'grup_menu' => 'Administrator',
             'name' => 'Manajemen Menu',
             'slug_name' => 'manajemen_menu',
             'menu_order' => 3,
@@ -48,6 +51,7 @@ class MenuSeeder extends Seeder
         ]);
 
         DB::table('menus')->insert([
+            'grup_menu' => 'Administrator',
             'name' => 'Otoritas',
             'slug_name' => 'otoritas',
             'menu_order' => 4,
