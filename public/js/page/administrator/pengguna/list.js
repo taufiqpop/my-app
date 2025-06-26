@@ -280,7 +280,7 @@ $(() => {
                 `;
             }
         }, {
-            data: 'encrypted_id',
+            data: 'id',
             render: (data, type, row) => {
                 const button_edit = $('<button>', {
                     class: 'btn btn-primary btn-update',

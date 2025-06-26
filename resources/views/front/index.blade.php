@@ -12,24 +12,24 @@
     <meta content="" name="keywords">
 
     {{-- Favicon --}}
-    <link href="{{ asset('assets-front') }}/img/ico/favicon.ico" rel="icon">
+    <link href="{{ asset('favicon.ico') }}" rel="icon">
 
     {{-- Google Fonts --}}
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     {{-- Bootstrap CSS --}}
-    <link href="{{ asset('assets-front') }}/css/aos/aos.css" rel="stylesheet">
-    <link href="{{ asset('assets-front') }}/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('assets-front') }}/css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="{{ asset('assets-front') }}/css/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="{{ asset('assets-front') }}/css/glightbox/glightbox.min.css" rel="stylesheet">
-    <link href="{{ asset('assets-front') }}/css/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/glightbox/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     {{-- Main CSS --}}
-    <link href="{{ asset('assets-front') }}/css/style.css" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/style.css') }}" rel="stylesheet">
 
     {{-- My CSS --}}
-    <link href="{{ asset('assets-front') }}/css/my-style.css" rel="stylesheet">
+    <link href="{{ asset('assets-front/css/my-style.css') }}" rel="stylesheet">
 
 </head>
 
@@ -1263,7 +1263,7 @@
             <div class="row">
                 <center>
                     <div class="col-1 mb-3">
-                        <img src="{{ asset('assets-front') }}/img/profile/Pop.png" class="img-fluid">
+                        <img src="{{ asset('assets-front/img/profile/Pop.png') }}" class="img-fluid">
                     </div>
                 </center>
             </div>
@@ -1280,17 +1280,17 @@
 
     {{-- Bootstrap JavaScript --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{{ asset('assets-front') }}/js/purecounter/purecounter.js"></script>
-    <script src="{{ asset('assets-front') }}/js/aos/aos.js"></script>
-    <script src="{{ asset('assets-front') }}/js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('assets-front') }}/js/glightbox/glightbox.min.js"></script>
-    <script src="{{ asset('assets-front') }}/js/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="{{ asset('assets-front') }}/js/swiper/swiper-bundle.min.js"></script>
-    <script src="{{ asset('assets-front') }}/js/typed.js/typed.min.js"></script>
-    <script src="{{ asset('assets-front') }}/js/waypoints/noframework.waypoints.js"></script>
+    <script src="{{ asset('assets-front/js/purecounter/purecounter.js') }}"></script>
+    <script src="{{ asset('assets-front/js/aos/aos.js') }}"></script>
+    <script src="{{ asset('assets-front/js/bootstrap/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets-front/js/glightbox/glightbox.min.js') }}"></script>
+    <script src="{{ asset('assets-front/js/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets-front/js/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets-front/js/typed.js/typed.min.js') }}"></script>
+    <script src="{{ asset('assets-front/js/waypoints/noframework.waypoints.js') }}"></script>
 
     {{-- Main JS --}}
-    <script src="{{ asset('assets-front') }}/js/script.js"></script>
+    <script src="{{ asset('assets-front/js/script.js') }}"></script>
 </body>
 
 </html>

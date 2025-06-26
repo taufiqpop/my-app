@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Menu;
-use App\Models\GMPA\RefDivisi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
@@ -15,11 +14,8 @@ class MenusController extends Controller
     // List
     public function index(Request $request)
     {
-        $ref_divisi = RefDivisi::all();
-
         $data = [
             'title' => 'Manajemen Menu',
-            'ref_divisi' => $ref_divisi
         ];
 
         return view('contents.administrator.menu.list', $data);
