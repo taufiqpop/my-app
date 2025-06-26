@@ -26,11 +26,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        DB::statement("SET SESSION sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''))");
+        // Cek Driver
+        if (DB::getDriverName() === 'mysql') {
+            DB::statement("SET SESSION sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''))");
+        }
+
         if ($this->app->environment('production')) {
             \URL::forceRootUrl(\Config::get('app.url'));
             // \URL::forceScheme('https');
         }
+
         View::share('plugins', []);
 
         // Impersonate

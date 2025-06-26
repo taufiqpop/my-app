@@ -27,6 +27,6 @@ class UserSeeder extends Seeder
             'created_at' => Carbon::now()
         ]);
 
-        factory(User::class, 5)->create();
+        // factory(User::class, 5)->create();
     }
 }

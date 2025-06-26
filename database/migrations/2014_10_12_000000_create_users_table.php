@@ -21,9 +21,9 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('real_password');
             $table->rememberToken();
-            $table->string('path');
-            $table->string('filename');
-            $table->double('filesize', 10, 2);
+            $table->string('path')->nullable();
+            $table->string('filename')->nullable();
+            $table->double('filesize', 10, 2)->nullable();
             $table->integer('is_active')->nullable(false)->default(1);
             $table->timestamps();
             $table->softDeletes();

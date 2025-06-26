@@ -23,8 +23,14 @@ $factory->define(User::class, function (Faker $faker) {
     $name = $faker->name;
     return [
         'name' => $name,
+        'email' => $this->faker->unique()->safeEmail,
         'username' => Str::slug($name),
-        'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+        'password' => bcrypt('password'),
+        'real_password' => 'password',
+        'path' => null,
+        'filename' => null,
+        'filesize' => null,
+        'is_active' => 1,
         'remember_token' => Str::random(10),
     ];
 });
